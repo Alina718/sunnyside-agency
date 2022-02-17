@@ -1,0 +1,2 @@
+"use strict";var body=document.querySelector("body"),humburgerBtn=document.querySelector(".hamburger-menu"),menuList=document.querySelector(".header__mobile-nav--container");humburgerBtn.addEventListener("click",(function(){menuList.classList.contains("hidden")?(menuList.classList.remove("hidden"),body.classList.add("noscroll")):(menuList.classList.add("hidden"),body.classList.remove("noscroll"))}));
+//# sourceMappingURL=script.js.map
